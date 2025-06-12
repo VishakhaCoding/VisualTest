@@ -6,6 +6,8 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Image source={require('../assets/profile.jpg')} style={styles.profileImage} />
       <Text style={styles.name}>Vishakha Nawale</Text>
+
+      <h1>coding</>
       <Text style={styles.bio}>SDET | Automation Engineer | Tech Enthusiast</Text>
     </View>
   );
